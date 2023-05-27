@@ -1,0 +1,23 @@
+@media (max-width: 768px){
+    section:nth-child(1){
+        background-size: contain;
+        height: 250px;
+    }
+
+    .menu-hamburguer{
+        display: block;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    nav{
+        backdrop-filter: blur(0px);
+        box-shadow: none;
+    }
+}
+
+section:nth-child(1){
+    overflow-x: hidden;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+section:nth-child(1){
+    width: 100% !important;
+    height: 100vh;
+    align-items: center;
+    background: rgba(3, 0, 12, 0.7) url(/foto-principal.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+section:nth-child(1) h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.5);
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.proposta{
+   margin-left: 18%;
+   margin-top: 12%;
+   color: white;
+}
+
+.proposta p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.proposta a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(to left, #857db1, #8d69a2);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.proposta a:hover{
+    padding: 21px;
+}
+
+section:nth-child(2){
+    height: 100vh;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 80px;
+}
+
+.title--cards{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title--cards h1{
+    font-weight: 800;
+    color: #000000;
+}
+
+.card--conteudo{
+    width: 340px;
+    height: 450px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#html--img{
+    width: 150px;
+    height: 150px;
+}
+
+.btn--cards{
+    margin-top: 30px;
+}
+
+.btn--cards-a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(to right, #fe4e03, #fa812a);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.css-bnt{
+    background: linear-gradient(to right, #006494, #1b98e0);
+} 
+
+.js--bnt{
+    background: linear-gradient(to right, #b88900, #efb810);
+}
+
+section:nth-child(3){
+    background: rgba(3, 0, 12, 0.7) url(fundo--paralax.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+
+    color: #ffffff;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+section:nth-child(3) h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.bnt-img2{
+    margin-top: 2%;
+}
+
+.bnt-img2 a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8d69a2, #857db1);
+}

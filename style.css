@@ -10,7 +10,7 @@ section:nth-child(1){
     width: 100% !important;
     height: 100vh;
     align-items: center;
-    background: rgba(3, 0, 12, 0.7) url(/foto-principal.jpg);
+    background: rgba(3, 0, 12, 0.7) url(foto-principal.jpg);
     background-blend-mode: darken;
     background-position: center;
     background-repeat: no-repeat !important;
